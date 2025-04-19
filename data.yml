@@ -238,6 +238,14 @@ indefinite:
   slackChannel: "#onboard-live"
   status: active
 drafts:
+- name: Hackumentary
+  description: You Ship a project with dev vlogs, We Ship points through which you can buy goodies 
+  detailedDescription: |
+    Build a project with daily dev vlogs, we ship you points for every dev vlog you create, which you can use to purchase exciting goodies after shipping your project
+  website:
+  slack: https://hackclub.slack.com/archives/C08NH401M2S
+  slackChannel: "#hackumentary"
+  status: draft
 - name: Burger
   description: You Ship a full stack website with front end and backend, We Ship a grant to buy burgers
   detailedDescription: |
@@ -580,3 +588,4 @@ drafts:
   slackChannel: "#boba"
   status: ended
   ended: '2024-12-31T23:59:59'
+
