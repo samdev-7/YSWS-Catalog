@@ -238,13 +238,13 @@ indefinite:
   slackChannel: "#onboard-live"
   status: active
 drafts:
-- name: Hackumentary
-  description: You Ship a project with dev vlogs, We Ship points through which you can buy goodies 
+- name: Hack A Home
+  description: You Ship a Home Assistant with Software,PCB and Case, We Ship a grant ($150 Max)to make it. 
   detailedDescription: |
-    Build a project with daily dev vlogs, we ship you points for every dev vlog you create, which you can use to purchase exciting goodies after shipping your project
+    Build a home assistant with Software,PCB and Case . We will send u a grant ($150 Max)to make it.
   website:
-  slack: https://hackclub.slack.com/archives/C08NH401M2S
-  slackChannel: "#hackumentary"
+  slack: https://hackclub.slack.com/archives/C08N4UN6AUS
+  slackChannel: "#hack-a-home"
   status: draft
 - name: Burger
   description: You Ship a full stack website with front end and backend, We Ship a grant to buy burgers
@@ -253,6 +253,14 @@ drafts:
   website:
   slack: https://slack.com/archives/C08NFMLBGPJ
   slackChannel: "#burger"
+  status: draft
+- name: Hackumentary
+  description: You Ship a project with dev vlogs, We Ship points through which you can buy goodies 
+  detailedDescription: |
+    Build a project with daily dev vlogs, we ship you points for every dev vlog you create, which you can use to purchase exciting goodies after shipping your project
+  website:
+  slack: https://hackclub.slack.com/archives/C08NH401M2S
+  slackChannel: "#hackumentary"
   status: draft
 - name: Reef
   description: Ship a deep learning project (AI/ML/LLM/NN), get a custom coral based accelerator.
