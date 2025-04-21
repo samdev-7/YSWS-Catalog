@@ -245,6 +245,12 @@ indefinite:
   slackChannel: "#onboard-live"
   status: active
 drafts:
+- name: Hack Drive
+  description: You Ship a cool file system using FUSE, We Ship a Hack Club branded flash drive.
+  website: https://hackdrive.radi8.dev/
+  slack: https://hackclub.slack.com/archives/C08EDPJ544E
+  slackChannel: "#hackdrive-ysws"
+  status: draft
 - name: Hack A Home
   description: You Ship a Home Assistant with Software,PCB and Case, We Ship a grant ($150 Max)to make it. 
   detailedDescription: |
