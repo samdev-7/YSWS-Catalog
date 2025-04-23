@@ -423,9 +423,9 @@ drafts:
   slack: https://slack.com/archives/C08BL0ELHLJ
   slackChannel: "#pridehaj"
   status: draft
-- name: Hackdrive
-  description: You ship a cool filesystem/something using FUSE, we ship a Hack Club branded flash drive
-  website:
+- name: Hack Drive
+  description: You Ship a cool filesystem/something using FUSE, We Ship a Hack Club branded flash drive
+  website: https://hackdrive.radi8.dev/
   slack: https://slack.com/archives/C08EDPJ544E
   slackChannel: "#hackdrive-ysws"
   status: draft
