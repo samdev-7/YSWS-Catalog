@@ -127,6 +127,13 @@ limitedTime:
   slackChannel: "#dessert"
   status: ended
   deadline: '2025-01-10T23:59:59'
+- name: Solder
+  description: Design and solder your own custom PCB with a free electronics kit!
+  website: https://solder.hackclub.com/
+  slack: https://slack.com/archives/C08L288G22Y
+  slackChannel: "#solder"
+  status: active
+  deadline: '2025-05-30T23:59:59'
 - name: HackCraft
   description: Create a Minecraft mod, and Hack Club sends you Minecraft Java!
   website: https://hackcraft.hackclub.com/
@@ -275,13 +282,6 @@ drafts:
   slack: https://hackclub.slack.com/archives/C08K33ZUUR5
   slackChannel: "#reef"
   status: draft
-- name: Solder
-  description: Design and solder your own custom PCB with a free electronics kit!
-  website: https://solder.hackclub.com/
-  slack: https://slack.com/archives/C08L288G22Y
-  slackChannel: "#solder"
-  status: draft
-  deadline: '2025-05-30T23:59:59'
 - name: Hackducky
   description: Create A DuckyScript get a Rubber Ducky ! ( hackducky )
   website:
