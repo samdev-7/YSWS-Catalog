@@ -215,6 +215,13 @@ limitedTime:
   slackChannel: "#10-days-of-tarot"
   status: active
   deadline: '2025-04-13T23:59:59'
+- name: Tonic
+  description: Make a Jekyll theme, show it to the world, and we'll send you a Hack Club hat!
+  website: https://tonic.hackclub.com/
+  slack: https://slack.com/archives/C08K7ARJ58U
+  slackChannel: "#tonic"
+  status: active
+  deadline: 
 indefinite:
 - name: Sprig
   description: Build a JS game and play it on your own console.
