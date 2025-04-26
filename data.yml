@@ -228,8 +228,8 @@ indefinite:
   website: https://hackclub.com/onboard
   slack: https://hackclub.slack.com/archives/C056AMWSFKJ
   slackChannel: "#electronics"
-  status: active
-  participants: 604
+  status: ended
+  participants: 1000
 - name: Boba Drops
   description: Build a website and get boba!
   website: https://boba.hackclub.com/
