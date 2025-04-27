@@ -39,13 +39,13 @@ limitedTime:
   website: https://sidequests.hackclub.com/
   slack: https://slack.com/archives/C08KCUK3NF5
   slackChannel: "#sidequests"
-  status: draft
+  status: active
 - name: Lockin
   description: Work on anything Wakatime-able on call with another Hack Clubber, spin for stickers at the end of the session.
   website: https://lockin.hackclub.com/
   slack: https://slack.com/archives/C08JV3ZV1DY
   slackChannel: "#lock-in"
-  status: draft
+  status: active
 - name: BrowserBuddy
   description: Build a Chrome extension, and Hack Club provides $30 to launch it on Chrome Web Store.
   website: https://browserbuddy.hackclub.com/
