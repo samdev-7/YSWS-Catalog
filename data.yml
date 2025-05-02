@@ -31,6 +31,21 @@ limitedTime:
   status: active
   deadline: '2025-03-16T23:59:59'
   participants: 719
+- name: Sidequests
+  description: A short-run low-volume low-effort ysws series from nora & co.
+  detailedDescription: |
+    #1: SkinAmp (ft. phoebe!) - Ship a WinAmp skin, we'll send you the WinAmp source code on CD-R (ended 2025-04-13).
+    #2: gemerald - Write something useful in Ruby, i'll send you a sticker (best few get a book!) (started 2025-04-10, ending soon).
+  website: https://sidequests.hackclub.com/
+  slack: https://slack.com/archives/C08KCUK3NF5
+  slackChannel: "#sidequests"
+  status: active
+- name: Lockin
+  description: Work on anything Wakatime-able on call with another Hack Clubber, spin for stickers at the end of the session.
+  website: https://lockin.hackclub.com/
+  slack: https://slack.com/archives/C08JV3ZV1DY
+  slackChannel: "#lock-in"
+  status: active
 - name: BrowserBuddy
   description: Build a Chrome extension, and Hack Club provides $30 to launch it on Chrome Web Store.
   website: https://browserbuddy.hackclub.com/
@@ -454,26 +469,11 @@ drafts:
   slack: https://hackclub.slack.com/archives/C08M1F3DYSE
   slackChannel: "#trainix"
   status: draft
-- name: Sidequests
-  description: A short-run low-volume low-effort ysws series from nora & co.
-  detailedDescription: |
-    #1: SkinAmp (ft. phoebe!) - Ship a WinAmp skin, we'll send you the WinAmp source code on CD-R (ended 2025-04-13).
-    #2: gemerald - Write something useful in Ruby, i'll send you a sticker (best few get a book!) (started 2025-04-10, ending soon).
-  website: https://sidequests.hackclub.com/
-  slack: https://slack.com/archives/C08KCUK3NF5
-  slackChannel: "#sidequests"
-  status: draft
 - name: RPG
   description: Work together with other hack clubbers to fight bosses and earn awesome loot and an exclusive trading card for those who help defeat each boss!
   website: https://rpg.hackclub.com/
   slack: https://slack.com/archives/C08JCNN7C59
   slackChannel: "#rpg"
-  status: draft
-- name: Lockin
-  description: Work on anything Wakatime-able on call with another Hack Clubber, spin for stickers at the end of the session.
-  website: https://lockin.hackclub.com/
-  slack: https://slack.com/archives/C08JV3ZV1DY
-  slackChannel: "#lock-in"
   status: draft
 - name: Pyramid Scheme
   description: Put up Hack Club posters to earn prizes.
