@@ -198,8 +198,8 @@ limitedTime:
   website: https://bakebuild.hackclub.com/
   slack: https://hackclub.slack.com/archives/C0844MV2JM9
   slackChannel: "#bakebuild"
-  status: ended
-  deadline: "2025-02-11T23:59:59"
+  status: active
+  deadline:
 - name: Retrospect (J2ME edition)
   description: Create a J2ME game (Java MIDlet) and have it delivered on a J2ME-capable phone.
   website: https://retrospect.hackclub.com/j2me
@@ -213,7 +213,7 @@ limitedTime:
   slack: https://hackclub.slack.com/archives/C078DFVL5LZ
   slackChannel: "#fraps"
   status: active
-  deadline: Summer of 2025
+  deadline:
   participants: 362
 - name: Cider
   description: Create an iOS app and receive a $100 Apple Developer account to publish it.
@@ -221,7 +221,7 @@ limitedTime:
   slack: https://hackclub.slack.com/archives/C073DTGENJ2
   slackChannel: "#cider"
   status: active
-  deadline: Summer of 2025
+  deadline:
   participants: 34
 - name: 10 Days of Tarot
   description: Build a project or feature and get exclusive prizes for each card requirement you hit.
