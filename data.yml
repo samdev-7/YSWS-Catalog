@@ -163,7 +163,7 @@ limitedTime:
   slack: https://hackclub.slack.com/archives/C07NQ5QAYNQ
   slackChannel: "#mc-modding"
   status: active
-  deadline: '2025-06-01T23:59:59'
+  deadline: '2025-06-07T23:59:59'
   detailedDescription: Join HackCraft to build and ship your own Minecraft mod. Access exclusive resources and a supportive community.
   steps:
   - Make a mod.
