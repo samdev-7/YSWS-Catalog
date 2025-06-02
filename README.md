@@ -19,7 +19,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/PawiX25/YSWS-Catalog.git
+   git clone https://github.com/hackclub/YSWS-Catalog.git
    cd YSWS-Catalog
    ```
 
