@@ -206,8 +206,8 @@ limitedTime:
   website: https://bakebuild.hackclub.com/
   slack: https://hackclub.slack.com/archives/C0844MV2JM9
   slackChannel: "#bakebuild"
-  status: active
-  deadline:
+  status: ended
+  deadline: '2025-02-11T23:59:59'
 - name: Retrospect (J2ME edition)
   description: Create a J2ME game (Java MIDlet) and have it delivered on a J2ME-capable phone.
   website: https://retrospect.hackclub.com/j2me
