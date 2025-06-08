@@ -244,7 +244,30 @@ limitedTime:
   slack: https://slack.com/archives/C08K7ARJ58U
   slackChannel: "#tonic"
   status: active
-  deadline: 
+  deadline:
+- name: Thunder
+  description: 'You Ship A Slack bot. We Ship A limited edition Orpheus bucket hat.'
+  website:
+  slack: https://hackclub.slack.com/archives/C06V2GEV3MY
+  slackChannel: "#thunder"
+  status: active
+  deadline: '2025-07-15T23:59:59'
+- name: Shipwrecked
+  description: 'You Ship 60 hours of work, 4 projects, and go viral. We Ship A ticket to an island hackathon in Boston.'
+  detailedDescription: 'You ship 60 hours of coding work, four shipped projects, and make one of them go viral. We ship you a ticket to Shipwrecked, a four-day, in-person hackathon on Cathleen Stone Island in the Boston Harbor, with travel stipends available.'
+  website: https://shipwrecked.hackclub.com
+  slack: https://hackclub.slack.com/archives/C073L9LB4K1
+  slackChannel: "#shipwrecked"
+  status: active
+  deadline: '2025-08-08T15:00:00'
+- name: Neighborhood
+  description: 'You Ship 100 hours of coding on one project. We Ship A free summer of coding in San Francisco.'
+  detailedDescription: 'You ship 100 hours of coding work on a single, new, open-source project. We ship you a flight to San Francisco and cover your housing, food, and transit for up to three months while you code with other teenagers.'
+  website: https://neighborhood.hackclub.com
+  slack: https://hackclub.slack.com/archives/C073L9LB4K1
+  slackChannel: "#neighborhood"
+  status: active
+  deadline: '2025-08-31T23:59:59'
 indefinite:
 - name: Sprig
   description: Build a JS game and play it on your own console.
@@ -280,6 +303,13 @@ indefinite:
   website:
   slack: https://hackclub.slack.com/archives/C07F3EA2L8G
   slackChannel: "#onboard-live"
+  status: active
+- name: Grub
+  description: 'You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.'
+  detailedDescription: "The grant amount is based on the number of unique features implemented:\\n$6 (Basic Meal): For 2 unique features.\\n$8 (Refreshment Combo): For 4 unique features.\\n$10 (Full Combo Meal): For 6 or more unique features."
+  website: https://grub.hackclub.com/
+  slack:
+  slackChannel: "#grub"
   status: active
 drafts:
 - name: Hack A Home
