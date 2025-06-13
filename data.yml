@@ -397,12 +397,6 @@ drafts:
   slack: https://hackclub.slack.com/archives/C079G5MKC93
   slackChannel: "#onward"
   status: draft
-- name: Waveband
-  description: Create a desktop app using RTL-SDR, and Hack Club sends you a dongle.
-  website: https://hack-rtl.vercel.app/
-  slack: https://hackclub.slack.com/archives/C082S5V95G8
-  slackChannel: "#waveband"
-  status: draft
 - name: Fishin Chips
   description: Build TTL logic circuits without microcontrollers, get components to make them real!
   detailedDescription: This is a TTL (transistor-transistor logic) YSWS, which means no microcontrollers will be given! Build fundamental digital electronics like adders, clocks, or even a 4-bit computer. Dream big, but focus on the electronic fundamentals.
