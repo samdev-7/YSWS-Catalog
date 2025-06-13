@@ -31,6 +31,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add feed.xml
+          git add api.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update JSON Data File"
           git push
