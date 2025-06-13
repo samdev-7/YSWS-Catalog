@@ -318,6 +318,18 @@ indefinite:
   slack:
   slackChannel: "#grub"
   status: active
+- name: Toppings
+  description: You ship an interactive website using framework-less JavaScript, we ship you a grant to an ice cream parlor. [1]
+  website: https://toppings.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C08R8V2E3LY
+  slackChannel: "#toppings"
+  status: active
+- name: Waffles
+  description: You ship a full-stack web application, and we ship you a grant to a waffle house.
+  website: https://waffles.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C08QBKX5WCD
+  slackChannel: "#waffles"
+  status: active
 drafts:
 - name: Hack A Home
   description: You Ship a Home Assistant with Software,PCB and Case, We Ship a grant ($150 Max)to make it. 
