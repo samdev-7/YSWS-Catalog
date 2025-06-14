@@ -1,6 +1,15 @@
 {
   "limitedTime": [
     {
+      "name": "Waveband",
+      "description": "Create a desktop app using RTL-SDR, and Hack Club sends you a dongle.",
+      "website": "https://waveband.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C082S5V95G8",
+      "slackChannel": "#waveband",
+      "status": "active",
+      "deadline": "2025-07-11T23:59:59"
+    },
+    {
       "name": "Highway",
       "description": "Make any hardware project, get up to 350 USD to build it! Keyboard, game console, rocket, robot, 3d printer, etc... Then, go to a 4-day hardware hackathon @ Github HQ this summer!",
       "detailedDescription": null,
@@ -204,7 +213,7 @@
       "slack": "https://hackclub.slack.com/archives/C07NQ5QAYNQ",
       "slackChannel": "#mc-modding",
       "status": "active",
-      "deadline": "2025-06-01T23:59:59",
+      "deadline": "2025-06-07T23:59:59",
       "detailedDescription": "Join HackCraft to build and ship your own Minecraft mod. Access exclusive resources and a supportive community.",
       "steps": [
         "Make a mod.",
@@ -258,8 +267,8 @@
       "website": "https://bakebuild.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C0844MV2JM9",
       "slackChannel": "#bakebuild",
-      "status": "active",
-      "deadline": null
+      "status": "ended",
+      "deadline": "2025-02-11T23:59:59"
     },
     {
       "name": "Retrospect (J2ME edition)",
@@ -307,6 +316,35 @@
       "slackChannel": "#tonic",
       "status": "active",
       "deadline": null
+    },
+    {
+      "name": "Thunder",
+      "description": "You Ship A Slack bot. We Ship A limited edition Orpheus bucket hat.",
+      "website": null,
+      "slack": "https://hackclub.slack.com/archives/C06V2GEV3MY",
+      "slackChannel": "#thunder",
+      "status": "active",
+      "deadline": "2025-07-15T23:59:59"
+    },
+    {
+      "name": "Shipwrecked",
+      "description": "You Ship 60 hours of work, 4 projects, and go viral. We Ship A ticket to an island hackathon in Boston.",
+      "detailedDescription": "You ship 60 hours of coding work, four shipped projects, and make one of them go viral. We ship you a ticket to Shipwrecked, a four-day, in-person hackathon on Cathleen Stone Island in the Boston Harbor, with travel stipends available.",
+      "website": "https://shipwrecked.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C073L9LB4K1",
+      "slackChannel": "#shipwrecked",
+      "status": "active",
+      "deadline": "2025-08-08T15:00:00"
+    },
+    {
+      "name": "Neighborhood",
+      "description": "You Ship 100 hours of coding on one project. We Ship A free summer of coding in San Francisco.",
+      "detailedDescription": "You ship 100 hours of coding work on a single, new, open-source project. We ship you a flight to San Francisco and cover your housing, food, and transit for up to three months while you code with other teenagers.",
+      "website": "https://neighborhood.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C073L9LB4K1",
+      "slackChannel": "#neighborhood",
+      "status": "active",
+      "deadline": "2025-08-31T23:59:59"
     }
   ],
   "indefinite": [
@@ -354,6 +392,31 @@
       "slack": "https://hackclub.slack.com/archives/C07F3EA2L8G",
       "slackChannel": "#onboard-live",
       "status": "active"
+    },
+    {
+      "name": "Grub",
+      "description": "You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.",
+      "detailedDescription": "The grant amount is based on the number of unique features implemented:\\n$6 (Basic Meal): For 2 unique features.\\n$8 (Refreshment Combo): For 4 unique features.\\n$10 (Full Combo Meal): For 6 or more unique features.",
+      "website": "https://grub.hackclub.com/",
+      "slack": null,
+      "slackChannel": "#grub",
+      "status": "active"
+    },
+    {
+      "name": "Toppings",
+      "description": "You ship an interactive website using framework-less JavaScript, we ship you a grant to an ice cream parlor.",
+      "website": "https://toppings.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C08R8V2E3LY",
+      "slackChannel": "#toppings",
+      "status": "active"
+    },
+    {
+      "name": "Waffles",
+      "description": "You ship a full-stack web application, and we ship you a grant to a waffle house.",
+      "website": "https://waffles.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C08QBKX5WCD",
+      "slackChannel": "#waffles",
+      "status": "active"
     }
   ],
   "drafts": [
@@ -364,15 +427,6 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C08N4UN6AUS",
       "slackChannel": "#hack-a-home",
-      "status": "draft"
-    },
-    {
-      "name": "Burger",
-      "description": "You Ship a full stack website with front end and backend, We Ship a grant to buy burgers",
-      "detailedDescription": "Build a full stack website. Prizes are awarded based on 'patties' earned ($5, $8, $11). Top 3 participants receive a Raspberry Pi 4 cluster kit. 4th and 5th place receive a HAT and Raspberry Pi Zeros.\n",
-      "website": null,
-      "slack": "https://slack.com/archives/C08NFMLBGPJ",
-      "slackChannel": "#burger",
       "status": "draft"
     },
     {
@@ -454,14 +508,6 @@
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C079G5MKC93",
       "slackChannel": "#onward",
-      "status": "draft"
-    },
-    {
-      "name": "Waveband",
-      "description": "Create a desktop app using RTL-SDR, and Hack Club sends you a dongle.",
-      "website": "https://hack-rtl.vercel.app/",
-      "slack": "https://hackclub.slack.com/archives/C082S5V95G8",
-      "slackChannel": "#waveband",
       "status": "draft"
     },
     {
