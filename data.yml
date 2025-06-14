@@ -319,7 +319,7 @@ indefinite:
   slackChannel: "#grub"
   status: active
 - name: Toppings
-  description: You ship an interactive website using framework-less JavaScript, we ship you a grant to an ice cream parlor. [1]
+  description: You ship an interactive website using framework-less JavaScript, we ship you a grant to an ice cream parlor.
   website: https://toppings.hackclub.com/
   slack: https://hackclub.slack.com/archives/C08R8V2E3LY
   slackChannel: "#toppings"
@@ -338,14 +338,6 @@ drafts:
   website:
   slack: https://hackclub.slack.com/archives/C08N4UN6AUS
   slackChannel: "#hack-a-home"
-  status: draft
-- name: Burger
-  description: You Ship a full stack website with front end and backend, We Ship a grant to buy burgers
-  detailedDescription: |
-    Build a full stack website. Prizes are awarded based on 'patties' earned ($5, $8, $11). Top 3 participants receive a Raspberry Pi 4 cluster kit. 4th and 5th place receive a HAT and Raspberry Pi Zeros.
-  website:
-  slack: https://slack.com/archives/C08NFMLBGPJ
-  slackChannel: "#burger"
   status: draft
 - name: Hackumentary
   description: You Ship a project with dev vlogs, We Ship points through which you can buy goodies 
