@@ -8,6 +8,13 @@ limitedTime:
   status: active
   deadline: '2025-08-31T23:59:59'
   participants: 10985
+- name: Reactive
+  description: Ship a website built with React, get $15 to buy a domain.
+  website: http://reactive.hackclub.com
+  slack: https://hackclub.slack.com/archives/C090S7Q2HT4
+  slackChannel: "#reactive"
+  status: active
+  deadline: '2025-07-02T23:59:59'
 - name: Waveband
   description: Create a desktop app using RTL-SDR, and Hack Club sends you a dongle.
   website: https://waveband.hackclub.com/
