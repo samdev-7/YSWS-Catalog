@@ -1,6 +1,16 @@
 {
   "limitedTime": [
     {
+      "name": "Summer of Making",
+      "description": "Build stuff. Get stuff. Repeat.",
+      "website": "https://summer.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C015M4L9AHW",
+      "slackChannel": "#summer-of-making",
+      "status": "active",
+      "deadline": "2025-08-31T23:59:59",
+      "participants": 10985
+    },
+    {
       "name": "Waveband",
       "description": "Create a desktop app using RTL-SDR, and Hack Club sends you a dongle.",
       "website": "https://waveband.hackclub.com/",
@@ -204,7 +214,7 @@
       "slack": "https://slack.com/archives/C08L288G22Y",
       "slackChannel": "#solder",
       "status": "active",
-      "deadline": "2025-05-30T23:59:59"
+      "deadline": "2025-06-30T23:59:59"
     },
     {
       "name": "HackCraft",
@@ -212,7 +222,7 @@
       "website": "https://hackcraft.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C07NQ5QAYNQ",
       "slackChannel": "#mc-modding",
-      "status": "active",
+      "status": "ended",
       "deadline": "2025-06-07T23:59:59",
       "detailedDescription": "Join HackCraft to build and ship your own Minecraft mod. Access exclusive resources and a supportive community.",
       "steps": [
