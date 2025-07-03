@@ -12,12 +12,14 @@
 - **Deadline Indicators:** Visual indicators for program deadlines, highlighting urgent and very urgent statuses to help prioritize participation.
 - **Real-time Deadline Updates:** Deadlines are updated in real-time to reflect the current status, ensuring information is always up-to-date.
 - **Responsive Design:** Optimized for various screen sizes and devices, providing a seamless experience on desktops, tablets, and mobile devices.
+- **RSS Feed:** Subscribe to get notifications about active YSWS programs in your favorite RSS reader.
+- **JSON API:** Get full data as a json object
 
 ## Getting Started
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/PawiX25/YSWS-Catalog.git
+   git clone https://github.com/hackclub/YSWS-Catalog.git
    cd YSWS-Catalog
    ```
 
@@ -34,6 +36,14 @@
 5. **Toggle Theme:**
    - Click the 🌙/☀️ button to switch between dark and light modes.
 
+## RSS Feed
+
+You can subscribe to updates about active YSWS programs using our RSS feed:
+
+- **Feed URL**: `https://ysws.hackclub.com/feed.xml`
+
+This feed is automatically updated whenever new programs are added or existing programs' statuses change. You can use this feed with any RSS reader like Feedly, Inoreader, or apps like Glance to get notified about new opportunities.
+
 ## Project Structure
 
 - **index.html:** The main HTML file containing the container for program cards and the modal structure.
@@ -46,6 +56,8 @@
   - Handling theme toggling
   - Managing program detail modals
   - Updating deadlines in real-time
+- **generate-json.js:** Generates a JSON file equivalent of the data.yml (for API use)
+- **generate-rss.js:** Generates an RSS feed.xml file
 
 ## Data Source & Example
 

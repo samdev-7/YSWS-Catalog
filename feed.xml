@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Hack Club YSWS Programs</title>
+  <link>https://ysws.hackclub.com</link>
+  <description>Active "You Ship, We Ship" programs from Hack Club</description>
+  <language>en-us</language>
+  <lastBuildDate>Thu, 03 Jul 2025 13:53:34 GMT</lastBuildDate>
+  <atom:link href="https://ysws.hackclub.com/feed.xml" rel="self" type="application/rss+xml" />
+
+  <item>
+    <title>Cascade</title>
+    <link>https://cascade.hackclub.com/</link>
+    <guid isPermaLink="false">Cascade-1751550814626</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Create animations with CSS and receive art supplies.</p>
+      <p><strong>Deadline:</strong> December 14, 2024</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C07QA8HD48N">#cascade-ysws</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Riceathon</title>
+    <link>https://github.com/HackClub/riceathon</link>
+    <guid isPermaLink="false">Riceathon-1751550814626</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Customize your Linux install, and get programmer socks or a Blåhaj.</p>
+      <p><strong>Deadline:</strong> January 10, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C07MLF9A8H5">#riceathon</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>RaspAPI</title>
+    <link>https://raspapi.hackclub.com/</link>
+    <guid isPermaLink="false">RaspAPI-1751550814626</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Make an API get a Raspberry Pi</p>
+      <p><strong>Deadline:</strong> March 10, 2025</p>
+      <p>Create an original API using any programming language or framework that you prefer and get a Raspberry Pi Zero 2 W to host it on! The API can be anything you want. The possibilities are endless!</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C07UZSKJQRX">#raspapi-ysws</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Hackpad</title>
+    <link>https://github.com/hackclub/hackpad</link>
+    <guid isPermaLink="false">Hackpad-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Design a keyboard get the parts! Please note this is only open to those who have build a Macropad previously.</p>
+      <p><strong>Deadline:</strong> March 16, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C07LESGH0B0">#hackpad</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>BrowserBuddy</title>
+    <link>https://browserbuddy.hackclub.com/</link>
+    <guid isPermaLink="false">BrowserBuddy-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build a Chrome extension, and Hack Club provides $30 to launch it on Chrome Web Store.</p>
+      <p><strong>Deadline:</strong> March 19, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C07MQBTNVRU">#browser-buddy</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Black Box</title>
+    <link>https://blackbox.hackclub.com</link>
+    <guid isPermaLink="false">Black Box-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Create a constrained, interactive C program and get a portable device to run it on!</p>
+      <p><strong>Deadline:</strong> March 29, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08APN1CKEJ">#black-box</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Juice</title>
+    <link>https://juice.hackclub.com</link>
+    <guid isPermaLink="false">Juice-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Spend 100 hours in 2 months building a game, and we&apos;ll cover your Steam release and fund a flight to China for a pop-up shop.</p>
+      <p><strong>Deadline:</strong> April 1, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C088UF12N1Z">#juice</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Jungle</title>
+    <link>https://juice.hackclub.com/jungle</link>
+    <guid isPermaLink="false">Jungle-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Spend time working on your game, get money to help publish it! Prizes include steam license, itch.io asset store credits, and much much more!</p>
+      <p><strong>Deadline:</strong> April 1, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C086MACKK43">#jungle</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Retrospect (J2ME edition)</title>
+    <link>https://retrospect.hackclub.com/j2me</link>
+    <guid isPermaLink="false">Retrospect (J2ME edition)-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Create a J2ME game (Java MIDlet) and have it delivered on a J2ME-capable phone.</p>
+      <p><strong>Deadline:</strong> April 7, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C07MUFXNG82">#retrospect</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Pixeldust</title>
+    <link>https://pixeldust.hackclub.com/</link>
+    <guid isPermaLink="false">Pixeldust-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Make a neopixel based PCB, get the parts to make one!</p>
+      <p><strong>Deadline:</strong> April 13, 2025</p>
+      <p>Create a PCB using KiCad / other EDA. It should use neopixels and a Xiao RP2040, and act as a decoration. Once submitted you can get the parts to make one yourself!</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C0895PXH53M">#pixeldust</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>10 Days of Tarot</title>
+    <link>https://tarot.hackclub.com/</link>
+    <guid isPermaLink="false">10 Days of Tarot-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build a project or feature and get exclusive prizes for each card requirement you hit.</p>
+      <p><strong>Deadline:</strong> April 13, 2025</p>
+      
+      <p>Join the discussion in <a href="https://slack.com/archives/C08L60RUQ92">#10-days-of-tarot</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Visioneer</title>
+    <link>https://visioneer.hackclub.com</link>
+    <guid isPermaLink="false">Visioneer-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Give your computer the gift of vision, get an esp32-s3-eye to see it through!</p>
+      <p><strong>Deadline:</strong> April 20, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C082PCKJYMN">#visioneer</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Infill</title>
+    <link>https://github.com/hackclub/infill</link>
+    <guid isPermaLink="false">Infill-1751550814627</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Design your own 3D printer mod, get $20 to build it!</p>
+      <p><strong>Deadline:</strong> May 4, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08B7LF58TX">#infill</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Hacklet</title>
+    <link>http://hackclub.github.io/hacklet</link>
+    <guid isPermaLink="false">Hacklet-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Spend two hours building a creative javascript bookmarklet, get $10 to buy a domain!</p>
+      <p><strong>Deadline:</strong> May 10, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08PJMATU8Y">#hacklet</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>TerminalCraft</title>
+    <link>https://terminalcraft.hackclub.com/</link>
+    <guid isPermaLink="false">TerminalCraft-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build a terminal program and earn a Raspberry Pi 4</p>
+      <p><strong>Deadline:</strong> June 21, 2025</p>
+      <p>Build &amp; publish a cross-platform terminal app. Get 10 users, open-source it, and snag your Pi 4</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08F58MT3GV">#terminal-craft</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Solder</title>
+    <link>https://solder.hackclub.com/</link>
+    <guid isPermaLink="false">Solder-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Design and solder your own custom PCB with a free electronics kit!</p>
+      <p><strong>Deadline:</strong> June 30, 2025</p>
+      
+      <p>Join the discussion in <a href="https://slack.com/archives/C08L288G22Y">#solder</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Hackaccino</title>
+    <link>https://fraps.hackclub.com/</link>
+    <guid isPermaLink="false">Hackaccino-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build a 3D website and get a free frappuccino.</p>
+      <p><strong>Deadline:</strong> June 30, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C078DFVL5LZ">#fraps</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Gamefolio</title>
+    <link>http://gamefolio.hackclub.dev</link>
+    <guid isPermaLink="false">Gamefolio-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Make a interactive portfolio website, get $20 for hosting or domains</p>
+      <p><strong>Deadline:</strong> July 2, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08RT4C2485">#gamefolio</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Reactive</title>
+    <link>http://reactive.hackclub.dev</link>
+    <guid isPermaLink="false">Reactive-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Ship a website built with React, get $15 to buy a domain.</p>
+      <p><strong>Deadline:</strong> July 4, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C090S7Q2HT4">#reactive</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Waveband</title>
+    <link>https://waveband.hackclub.com/</link>
+    <guid isPermaLink="false">Waveband-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Create a program that uses RTL-SDR, and Hack Club sends you a dongle and antenna kit.</p>
+      <p><strong>Deadline:</strong> July 11, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C082S5V95G8">#waveband</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Converge</title>
+    <link>https://converge.hackclub.com/?utm_source=ysws-site</link>
+    <guid isPermaLink="false">Converge-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build Discord/Slack bots, we ship domain names, server hosting, Blahajs, and more</p>
+      <p><strong>Deadline:</strong> July 15, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C091UF79VDM">#converge</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Thunder</title>
+    <link>https://ysws.hackclub.com</link>
+    <guid isPermaLink="false">Thunder-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>You Ship A Slack bot. We Ship A limited edition Orpheus bucket hat.</p>
+      <p><strong>Deadline:</strong> July 15, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C06V2GEV3MY">#thunder</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Highway</title>
+    <link>https://highway.hackclub.com</link>
+    <guid isPermaLink="false">Highway-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Make any hardware project, get up to 350 USD to build it! Keyboard, game console, rocket, robot, 3d printer, etc... Then, go to a 4-day hardware hackathon @ Github HQ this summer!</p>
+      <p><strong>Deadline:</strong> July 31, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08Q1H6D79B">#highway</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Shipwrecked</title>
+    <link>https://shipwrecked.hackclub.com</link>
+    <guid isPermaLink="false">Shipwrecked-1751550814628</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>You Ship 60 hours of work, 4 projects, and go viral. We Ship A ticket to an island hackathon in Boston.</p>
+      <p><strong>Deadline:</strong> August 8, 2025</p>
+      <p>You ship 60 hours of coding work, four shipped projects, and make one of them go viral. We ship you a ticket to Shipwrecked, a four-day, in-person hackathon on Cathleen Stone Island in the Boston Harbor, with travel stipends available.</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C073L9LB4K1">#shipwrecked</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Summer of Making</title>
+    <link>https://summer.hackclub.com/</link>
+    <guid isPermaLink="false">Summer of Making-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build stuff. Get stuff. Repeat.</p>
+      <p><strong>Deadline:</strong> August 31, 2025</p>
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C015M4L9AHW">#summer-of-making</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Neighborhood</title>
+    <link>https://neighborhood.hackclub.com</link>
+    <guid isPermaLink="false">Neighborhood-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>You Ship 100 hours of coding on one project. We Ship A free summer of coding in San Francisco.</p>
+      <p><strong>Deadline:</strong> August 31, 2025</p>
+      <p>You ship 100 hours of coding work on a single, new, open-source project. We ship you a flight to San Francisco and cover your housing, food, and transit for up to three months while you code with other teenagers.</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C073L9LB4K1">#neighborhood</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Lockin</title>
+    <link>https://lockin.hackclub.com/</link>
+    <guid isPermaLink="false">Lockin-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Work on anything Wakatime-able on call with another Hack Clubber, spin for stickers at the end of the session.</p>
+      
+      
+      <p>Join the discussion in <a href="https://slack.com/archives/C08JV3ZV1DY">#lock-in</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>BakeBuild</title>
+    <link>https://bakebuild.hackclub.com/</link>
+    <guid isPermaLink="false">BakeBuild-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Design a cookie cutter, get it shipped!</p>
+      
+      <p>You ship : A CAD model of a cookie cutter, we ship : A 3D printed model of your custom cookie cutter &amp; cookies!</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C0844MV2JM9">#bakebuild</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Cider</title>
+    <link>https://cider.hackclub.com/</link>
+    <guid isPermaLink="false">Cider-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Create an iOS app and receive a $100 Apple Developer account to publish it.</p>
+      
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C073DTGENJ2">#cider</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Tonic</title>
+    <link>https://tonic.hackclub.com/</link>
+    <guid isPermaLink="false">Tonic-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Make a Jekyll theme, show it to the world, and we&apos;ll send you a Hack Club hat!</p>
+      
+      
+      <p>Join the discussion in <a href="https://slack.com/archives/C08K7ARJ58U">#tonic</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Sprig</title>
+    <link>https://sprig.hackclub.com/</link>
+    <guid isPermaLink="false">Sprig-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build a JS game and play it on your own console.</p>
+      
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C02UN35M7LG">#sprig</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Boba Drops</title>
+    <link>https://boba.hackclub.com/</link>
+    <guid isPermaLink="false">Boba Drops-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Build a website and get boba!</p>
+      
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C06UJR8QW0M">#boba</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Swirl</title>
+    <link>https://swirl.hackclub.com</link>
+    <guid isPermaLink="false">Swirl-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Create a quality website with Scoops, get ice cream!</p>
+      
+      <p>Ship a static website (html + css) that has a Scoop, and get a grant for ice cream to enjoy! Scoops are made up of groups of three html / css features that add something of value to the website.</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08FR0LMVHD">#swirl</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>OnBoard Live</title>
+    <link>https://ysws.hackclub.com</link>
+    <guid isPermaLink="false">OnBoard Live-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>Design a PCB live on YouTube for $5/hour PCB credit.</p>
+      
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C07F3EA2L8G">#onboard-live</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Grub</title>
+    <link>https://grub.hackclub.com/</link>
+    <guid isPermaLink="false">Grub-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.</p>
+      
+      <p>The grant amount is based on the number of unique features implemented:\n$6 (Basic Meal): For 2 unique features.\n$8 (Refreshment Combo): For 4 unique features.\n$10 (Full Combo Meal): For 6 or more unique features.</p>
+      <p>Join the discussion in <a href="null">#grub</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Toppings</title>
+    <link>https://toppings.hackclub.com/</link>
+    <guid isPermaLink="false">Toppings-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>You ship an interactive website using framework-less JavaScript, we ship you a grant to an ice cream parlor.</p>
+      
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08R8V2E3LY">#toppings</a></p>
+    ]]></description>
+  </item>
+  <item>
+    <title>Waffles</title>
+    <link>https://waffles.hackclub.com/</link>
+    <guid isPermaLink="false">Waffles-1751550814629</guid>
+    <pubDate>Thu, 03 Jul 2025 13:53:34 GMT</pubDate>
+    <description><![CDATA[
+      <p>You ship a website using HTML CSS and JavaScript, and get Waffles!!!</p>
+      
+      
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08QBKX5WCD">#waffles</a></p>
+    ]]></description>
+  </item>
+</channel>
+</rss>

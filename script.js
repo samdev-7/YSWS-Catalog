@@ -2,8 +2,78 @@ let programs = {};
 const apiUrl = "https://api2.hackclub.com/v0.1/Unified%20YSWS%20Projects%20DB/YSWS%20Programs?cache=true";
 let participants = [];
 let initialParticipants = new Map();
+let completedPrograms = new Set();
+
+function loadCompletedPrograms() {
+    const saved = localStorage.getItem('completedPrograms');
+    if (saved) {
+        completedPrograms = new Set(JSON.parse(saved));
+    }
+}
+
+function saveCompletedPrograms() {
+    localStorage.setItem('completedPrograms', JSON.stringify([...completedPrograms]));
+}
+
+function toggleProgramCompletion(programName, event) {
+    if (event) {
+        event.stopPropagation();
+    }
+    
+    if (completedPrograms.has(programName)) {
+        completedPrograms.delete(programName);
+    } else {
+        completedPrograms.add(programName);
+    }
+    
+    saveCompletedPrograms();
+    updateCompletionUI(programName);
+}
+
+function updateCompletionUI(programName) {
+    const isCompleted = completedPrograms.has(programName);
+    
+    document.querySelectorAll(`.program-card[data-name="${programName}"]`).forEach(card => {
+        const completionBtn = card.querySelector('.program-completion-toggle');
+        const completionBadge = card.querySelector('.user-completed-badge');
+        
+        if (completionBtn) {
+            completionBtn.innerHTML = isCompleted ? 
+                '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>' : 
+                '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg>';
+            
+            completionBtn.setAttribute('aria-label', isCompleted ? 'Mark as not completed' : 'Mark as completed');
+            completionBtn.classList.toggle('completed', isCompleted);
+        }
+        
+        if (completionBadge) {
+            completionBadge.classList.toggle('visible', isCompleted);
+        }
+    });
+    
+    const modal = document.getElementById('program-modal');
+    if (modal.classList.contains('active')) {
+        const modalTitle = modal.querySelector('.title').textContent;
+        if (modalTitle === programName) {
+            const modalCompletionBtn = modal.querySelector('.modal-completion-toggle');
+            if (modalCompletionBtn) {
+                modalCompletionBtn.innerHTML = isCompleted ? 
+                    '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Completed' : 
+                    '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg> Mark as completed';
+                
+                modalCompletionBtn.classList.toggle('completed', isCompleted);
+            }
+            
+            const modalCompletionBadge = modal.querySelector('.modal-completion-badge');
+            if (modalCompletionBadge) {
+                modalCompletionBadge.classList.toggle('visible', isCompleted);
+            }
+        }
+    }
+}
 
 async function startRender() {
+    loadCompletedPrograms();
     await loadPrograms();
     Object.values(programs).flat().forEach(program => {
         if (program.participants !== undefined) {
@@ -27,13 +97,18 @@ function loadParticipants() {
         .then(data => {
             participants = data.map(item => ({
                 name: item.fields.Name,
-                total: item.fields["Unweighted–Total"]
+                total: item.fields["Unweighted–Total"],
+                id: item.id
             }));
         })
         .catch(error => {
             console.error("Error fetching data:", error);
         });
 }
+
+const unifiedDbOverrides = {
+    "HackCraft": "recE2drMuGXUWJi3L",
+};
 
 function animateNumber(element, start, end, duration = 1000) {
     const startTime = performance.now();
@@ -70,7 +145,10 @@ function updateParticipantCounts() {
         const programData = JSON.parse(decodeURIComponent(programCard.dataset.program));
         const programName = programData.name;
         
-        const apiData = participants.find(p => p.name === programName);
+        const overrideId = unifiedDbOverrides[programName];
+        const apiData = overrideId
+            ? participants.find(p => p.id === overrideId)
+            : participants.find(p => p.name === programName);
         if (apiData) {
             const initialCount = initialParticipants.get(programName) || 0;
             animateNumber(element, initialCount, apiData.total);
@@ -107,23 +185,24 @@ async function loadPrograms() {
         const response = await fetch('data.yml').then(res => res.text());
         const rawPrograms = jsyaml.load(response);
         
-        const completed = [];
+        const ended = [];
         programs = Object.fromEntries(
             Object.entries(rawPrograms).map(([category, programsList]) => [
-                category,
+            category,
+            (programsList && Array.isArray(programsList)) ? 
                 programsList.filter(program => {
-                    if (program.status === 'completed' || isEventEnded(program.deadline)) {
-                        completed.push({ ...program, status: 'completed' });
-                        return false;
-                    }
-                    return true;
-                })
+                if (program.status === 'ended' || isEventEnded(program.deadline)) {
+                    ended.push({ ...program, status: 'ended' });
+                    return false;
+                }
+                return true;
+                }) : []
             ])
         );
 
-        delete programs['Completed'];
-        if (completed.length > 0) {
-            programs['Completed'] = completed;
+        delete programs['Ended'];
+        if (ended.length > 0) {
+            programs['Ended'] = ended;
         }
         
         programs = Object.fromEntries(
@@ -134,7 +213,7 @@ async function loadPrograms() {
     }
 }
 
-function formatDeadline(deadlineStr, opensStr) {
+function formatDeadline(deadlineStr, opensStr, endedStr) {
     if (opensStr) {
         const opensDate = new Date(opensStr);
         const now = new Date();
@@ -145,6 +224,20 @@ function formatDeadline(deadlineStr, opensStr) {
                 year: opensDate.getFullYear() !== new Date().getFullYear() ? 'numeric' : undefined
             })}`;
         }
+    }
+    
+    if (endedStr) {
+        if (endedStr.match(/^\d{4}-\d{2}-\d{2}/) || endedStr.includes('T')) {
+            const endedDate = new Date(endedStr);
+            if (!isNaN(endedDate.getTime())) {
+                return `Ended on ${endedDate.toLocaleDateString('en-US', { 
+                    month: 'long', 
+                    day: 'numeric',
+                    year: endedDate.getFullYear() !== new Date().getFullYear() ? 'numeric' : undefined
+                })}`;
+            }
+        }
+        return endedStr;
     }
     
     if (!deadlineStr) return '';
@@ -190,29 +283,54 @@ function formatParticipants(name) {
     return `<span>${initial}</span> participant${initial !== 1 ? 's' : ''}`;
 }
 
+function formatUpdatedParticipants(name) {
+    let count = getParticipantsByName(name);
+    if (count === null) {
+        count = initialParticipants.get(name) || 0;
+    }
+    return `<span>${count}</span> participant${count !== 1 ? 's' : ''}`;
+}
+
 function createProgramCard(program) {
-    const deadlineText = formatDeadline(program.deadline, program.opens);
+    const deadlineText = formatDeadline(program.deadline, program.opens, program.ended);
     const deadlineClass = getDeadlineClass(program.deadline);
     
     const opensClass = program.opens && new Date() < new Date(program.opens) ? 'opens-soon' : '';
     
     const encodedProgram = encodeURIComponent(JSON.stringify(program));
     
+    const isCompletedByUser = completedPrograms.has(program.name);
+    const completionButtonClass = isCompletedByUser ? 'completed' : '';
+    const completionIcon = isCompletedByUser ? 
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>' : 
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg>';
+    
     const participantsText = program.participants !== undefined ? 
         `<div class="program-participants">${formatParticipants(program.name)}</div>` : '';
     
     return `
-        <div class="card program-card ${opensClass}" data-program="${encodedProgram}">
+        <div class="card program-card ${opensClass}" data-program="${encodedProgram}" data-name="${program.name}">
             <div class="program-header">
                 <h3>${program.name}</h3>
-                <span class="program-status status-${program.status}">${program.status}</span>
+                <div class="status-container">
+                    <span class="user-completed-badge ${isCompletedByUser ? 'visible' : ''}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        Completed
+                    </span>
+                    <span class="program-status status-${program.status}">${program.status}</span>
+                </div>
             </div>
             <p>${program.description}</p>
             <div class="program-deadline ${deadlineClass}">${deadlineText}</div>
             ${participantsText}
-            <div class="program-links">
-                ${program.website ? `<a href="${program.website}" target="_blank">Website</a>` : ''}
-                ${program.slack ? `<a href="${program.slack}" target="_blank">${program.slackChannel}</a>` : ''}
+            <div class="program-footer">
+                <div class="program-links">
+                    ${program.website ? `<a href="${program.website}" target="_blank">Website</a>` : ''}
+                    ${program.slack ? `<a href="${program.slack}" target="_blank">${program.slackChannel}</a>` : ''}
+                </div>
+                <button class="program-completion-toggle ${completionButtonClass}" aria-label="${isCompletedByUser ? 'Mark as not completed' : 'Mark as completed'}" data-program-name="${program.name}">
+                    ${completionIcon}
+                </button>
             </div>
         </div>
     `;
@@ -262,7 +380,7 @@ function openModal(program) {
         program.detailedDescription || program.description;
     
     const deadlineElement = modal.querySelector('.program-deadline');
-    const deadlineText = formatDeadline(program.deadline, program.opens);
+    const deadlineText = formatDeadline(program.deadline, program.opens, program.ended);
     const deadlineClass = getDeadlineClass(program.deadline);
     deadlineElement.className = `program-deadline ${deadlineClass}`;
     deadlineElement.textContent = deadlineText;
@@ -284,7 +402,7 @@ function openModal(program) {
     if (program.participants !== undefined) {
         detailsHTML += `
             <h3>Participation</h3>
-            <p>${formatParticipants(program.name)}</p>
+            <p>${formatUpdatedParticipants(program.name)}</p>
         `;
     }
     
@@ -312,6 +430,17 @@ function openModal(program) {
     if (program.website) links.push(`<a href="${program.website}" target="_blank">Website</a>`);
     if (program.slack) links.push(`<a href="${program.slack}" target="_blank">${program.slackChannel}</a>`);
     modal.querySelector('.program-links').innerHTML = links.join(' | ');
+    
+    const isCompletedByUser = completedPrograms.has(program.name);
+    const modalCompletionBtn = modal.querySelector('.modal-completion-toggle');
+    modalCompletionBtn.innerHTML = isCompletedByUser ? 
+        '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Completed' : 
+        '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg> Mark as completed';
+    modalCompletionBtn.classList.toggle('completed', isCompletedByUser);
+    modalCompletionBtn.dataset.programName = program.name;
+    
+    const modalCompletionBadge = modal.querySelector('.modal-completion-badge');
+    modalCompletionBadge.classList.toggle('visible', isCompletedByUser);
 
     updatePositionIndicator();
     modal.classList.add('active');
@@ -411,6 +540,9 @@ function filterPrograms(category) {
     const sections = document.querySelectorAll('.category-section');
     const buttons = document.querySelectorAll('.filter-btn');
 
+    document.getElementById('user-completed-empty').classList.remove('visible');
+    document.getElementById('user-not-completed-empty').classList.remove('visible');
+
     buttons.forEach(btn => {
         btn.classList.toggle('active', btn.dataset.category === category);
     });
@@ -422,6 +554,8 @@ function filterPrograms(category) {
             const statusElement = card.querySelector('.program-status');
             const deadlineElement = card.querySelector('.program-deadline');
             const status = statusElement.textContent;
+            const programName = card.getAttribute('data-name');
+            const isCompletedByUser = completedPrograms.has(programName);
             
             if (category === 'all') {
                 card.classList.remove('hidden-by-filter');
@@ -430,6 +564,12 @@ function filterPrograms(category) {
                     ['urgent', 'very-urgent'].some(cls => 
                         deadlineElement.classList.contains(cls));
                 card.classList.toggle('hidden-by-filter', !isEndingSoon);
+            } else if (category === 'user-completed') {
+                card.classList.toggle('hidden-by-filter', !isCompletedByUser);
+            } else if (category === 'user-not-completed') {
+                card.classList.toggle('hidden-by-filter', isCompletedByUser);
+            } else if (category === 'ended') {
+                card.classList.toggle('hidden-by-filter', status !== 'ended');
             } else {
                 card.classList.toggle('hidden-by-filter', status !== category);
             }
@@ -440,6 +580,22 @@ function filterPrograms(category) {
                          !card.classList.contains('hidden-by-search'));
         section.classList.toggle('hidden', !hasVisibleCards);
     });
+
+    if (category === 'user-completed' || category === 'user-not-completed') {
+        const allProgramCards = document.querySelectorAll('.program-card');
+        const hasVisibleCards = Array.from(allProgramCards).some(card => 
+            !card.classList.contains('hidden-by-filter') && 
+            !card.classList.contains('hidden-by-search')
+        );
+
+        if (!hasVisibleCards) {
+            if (category === 'user-completed') {
+                document.getElementById('user-completed-empty').classList.add('visible');
+            } else {
+                document.getElementById('user-not-completed-empty').classList.add('visible');
+            }
+        }
+    }
 }
 
 function searchPrograms(searchTerm) {
@@ -502,7 +658,7 @@ function updateDeadlines() {
                 return;
             }
             
-            const deadlineText = formatDeadline(programData.deadline, programData.opens);
+            const deadlineText = formatDeadline(programData.deadline, programData.opens, programData.ended);
             const deadlineClass = getDeadlineClass(programData.deadline);
             
             element.textContent = deadlineText;
@@ -539,6 +695,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.addEventListener('click', (e) => {
+        if (e.target.closest('.program-completion-toggle')) {
+            const button = e.target.closest('.program-completion-toggle');
+            const programName = button.dataset.programName;
+            toggleProgramCompletion(programName, e);
+            return;
+        }
+        
+        if (e.target.closest('.modal-completion-toggle')) {
+            const button = e.target.closest('.modal-completion-toggle');
+            const programName = button.dataset.programName;
+            toggleProgramCompletion(programName, e);
+            return;
+        }
+        
+        if (e.target.closest('.program-card') && e.target.closest('a')) {
+            return;
+        }
+        
         if (e.target.closest('.program-card')) {
             const encodedProgram = e.target.closest('.program-card').dataset.program;
             const program = JSON.parse(decodeURIComponent(encodedProgram));
