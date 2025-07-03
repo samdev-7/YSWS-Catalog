@@ -64,12 +64,12 @@ limitedTime:
 - name: Sidequests
   description: A short-run low-volume low-effort ysws series from nora & co.
   detailedDescription: |
-    #1: SkinAmp (ft. phoebe!) - Ship a WinAmp skin, we'll send you the WinAmp source code on CD-R (ended 2025-04-13).
-    #2: gemerald - Write something useful in Ruby, i'll send you a sticker (best few get a book!) (started 2025-04-10, ending soon).
+    #1: SkinAmp (ft. phoebe!) - Ship a WinAmp skin, we'll send you the WinAmp source code on CD-R (started 2025-03-26, ended 2025-04-13).
+    #2: gemerald - Write something useful in Ruby, i'll send you a sticker (best few get a book!) (started 2025-04-10, ended 2025-04-25).
   website: https://sidequests.hackclub.com/
   slack: https://slack.com/archives/C08KCUK3NF5
   slackChannel: "#sidequests"
-  status: active
+  status: ended
 - name: Lockin
   description: Work on anything Wakatime-able on call with another Hack Clubber, spin for stickers at the end of the session.
   website: https://lockin.hackclub.com/
