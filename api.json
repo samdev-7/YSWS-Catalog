@@ -304,8 +304,7 @@
       "website": "https://bakebuild.hackclub.com/",
       "slack": "https://hackclub.slack.com/archives/C0844MV2JM9",
       "slackChannel": "#bakebuild",
-      "status": "active",
-      "deadline": "2025-02-11T23:59:59"
+      "status": "active"
     },
     {
       "name": "Retrospect (J2ME edition)",
