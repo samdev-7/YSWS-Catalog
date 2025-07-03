@@ -112,4 +112,3 @@ details:
    ```
 5. **Open a Pull Request:**  
    On GitHub, open a PR from your fork to this repository and provide a description of your changes.
-
