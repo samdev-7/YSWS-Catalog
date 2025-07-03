@@ -2,9 +2,6 @@
 
 **YSWS-Catalog** is a web-based directory showcasing Hack Club’s "You Ship, We Ship" (YSWS) programs. Each YSWS program rewards participants for building and shipping projects—hardware, software, art, and more—by sending them physical or digital goodies. This repository hosts the source code for the catalog, allowing anyone to explore, filter, and learn about these initiatives. If you want to add or update a program, feel free to submit a pull request!
 
-> **Note:**  
-The actively maintained version of this project is now hosted at [hackclub/YSWS-Catalog](https://github.com/hackclub/YSWS-Catalog). This repository is the original version created by me and is not updated by the community. Please refer to the maintained repository.
-
 ## Features
 
 - **Dynamic Program Listing:** All YSWS programs are defined in `script.js` for easy editing.
