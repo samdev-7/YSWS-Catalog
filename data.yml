@@ -13,6 +13,11 @@ limitedTime:
   website: https://hackmate.hackclub.dev
   slack: https://hackclub.slack.com/archives/C092HR1LG20
   slackChannel: "#hackmate"
+- name: Converge
+  description: Build Discord/Slack bots, we ship domain names, server hosting, Blahajs, and more
+  website: https://converge.hackclub.com/?utm_source=ysws-site
+  slack: https://hackclub.slack.com/archives/C091UF79VDM
+  slackChannel: "#converge"
   status: active
   deadline: '2025-07-15T23:59:59'
 - name: Reactive
@@ -22,8 +27,15 @@ limitedTime:
   slackChannel: "#reactive"
   status: active
   deadline: '2025-07-02T23:59:59'
+- name: Gamefolio
+  description: Make a interactive portfolio website, get $20 for hosting or domains
+  website: http://gamefolio.hackclub.dev
+  slack: https://hackclub.slack.com/archives/C08RT4C2485
+  slackChannel: "#gamefolio"
+  status: active
+  deadline: '2025-07-02T23:59:59'
 - name: Waveband
-  description: Create a desktop app using RTL-SDR, and Hack Club sends you a dongle.
+  description: Create a program that uses RTL-SDR, and Hack Club sends you a dongle and antenna kit.
   website: https://waveband.hackclub.com/
   slack: https://hackclub.slack.com/archives/C082S5V95G8
   slackChannel: "#waveband"
@@ -71,12 +83,12 @@ limitedTime:
 - name: Sidequests
   description: A short-run low-volume low-effort ysws series from nora & co.
   detailedDescription: |
-    #1: SkinAmp (ft. phoebe!) - Ship a WinAmp skin, we'll send you the WinAmp source code on CD-R (ended 2025-04-13).
-    #2: gemerald - Write something useful in Ruby, i'll send you a sticker (best few get a book!) (started 2025-04-10, ending soon).
+    #1: SkinAmp (ft. phoebe!) - Ship a WinAmp skin, we'll send you the WinAmp source code on CD-R (started 2025-03-26, ended 2025-04-13).
+    #2: gemerald - Write something useful in Ruby, i'll send you a sticker (best few get a book!) (started 2025-04-10, ended 2025-04-25).
   website: https://sidequests.hackclub.com/
   slack: https://slack.com/archives/C08KCUK3NF5
   slackChannel: "#sidequests"
-  status: active
+  status: ended
 - name: Lockin
   description: Work on anything Wakatime-able on call with another Hack Clubber, spin for stickers at the end of the session.
   website: https://lockin.hackclub.com/
@@ -235,8 +247,7 @@ limitedTime:
   website: https://bakebuild.hackclub.com/
   slack: https://hackclub.slack.com/archives/C0844MV2JM9
   slackChannel: "#bakebuild"
-  status: ended
-  deadline: '2025-02-11T23:59:59'
+  status: active
 - name: Retrospect (J2ME edition)
   description: Create a J2ME game (Java MIDlet) and have it delivered on a J2ME-capable phone.
   website: https://retrospect.hackclub.com/j2me
