@@ -51,6 +51,13 @@ limitedTime:
   slackChannel: "#waveband"
   status: active
   deadline: '2025-07-11T23:59:59'
+- name: Toolsmith
+  description: Build a AI extension (MCP tool), get $10 of AI credits.
+  website: https://toolsmith.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C094X38BFT5
+  slackChannel: "#toolsmith"
+  status: active
+  deadline: '2025-07-11T23:59:59'
 - name: Highway
   description: Make any hardware project, get up to 350 USD to build it! Keyboard, game console, rocket, robot, 3d printer, etc... Then, go to a 4-day hardware hackathon @ Github HQ this summer!
   detailedDescription:
