@@ -76,6 +76,15 @@
       "deadline": "2025-07-11T23:59:59"
     },
     {
+      "name": "Smelt",
+      "description": "Ship a Svelte/SvelteKit site, get awesome collectable swag!",
+      "website": "https://smelt.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C09535Y8E83",
+      "slackChannel": "#smelt",
+      "status": "active",
+      "deadmine": "2025-07-31T23:59:59"
+    },
+    {
       "name": "Highway",
       "description": "Make any hardware project, get up to 350 USD to build it! Keyboard, game console, rocket, robot, 3d printer, etc... Then, go to a 4-day hardware hackathon @ Github HQ this summer!",
       "detailedDescription": null,
