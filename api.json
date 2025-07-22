@@ -619,8 +619,8 @@
     },
     {
       "name": "The Zoo",
-      "description": "You ship an interactive animal themed website, we ship themed stickers and posters for top submissions",
-      "website": null,
+      "description": "You ship an interactive animal themed Svete website, we ship Ikea animal plushies",
+      "website": "https://lynn89-sudo.github.io/the-zoo/",
       "slack": "https://slack.com/archives/C08K37F66AK",
       "slackChannel": "#the-zoo",
       "status": "draft"
