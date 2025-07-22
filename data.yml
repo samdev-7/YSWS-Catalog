@@ -23,7 +23,13 @@ limitedTime:
   slackChannel: "#timeless"
   status: active
   deadline: '2025-07-24T23:59:59'
-
+- name: Toybox
+  description: You ship a daily game, we ship stickers + keycap keychain + steam gift card. Make the next Wordle.
+  website: https://toybox.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C096HCT11G9
+  slackChannel: "#toybox"
+  status: active
+  deadline: '2025-22-24T23:59:59'
 - name: Twist
   description: Make an esolang, get stickers and a $40 electronics grant.
   website: https://twist.hackclub.dev/
@@ -567,6 +573,60 @@ indefinite:
   slackChannel: "#waffles"
   status: active
 drafts:
+- name: Swatchbox
+  description: You ship a modular art component, we ship the swatchbox to go with it!
+  website:
+  slack: https://hackclub.slack.com/archives/C094R49MS9Y
+  slackChannel: "#swatchbox"
+  status: draft
+- name: Rube Goldburg YSWS
+  description: 
+  website:
+  slack: https://hackclub.slack.com/archives/C094U05FAE6
+  slackChannel: "#rube-goldberg-ysws"
+  status: draft
+- name: Poetry
+  description: "You ship: poetry (details to be decided soon) We ship: Maybe a poster or smth?"
+  website:
+  slack: "#poetry-ysws"
+  slackChannel: https://hackclub.slack.com/archives/C095DDUVCJX
+  status: draft
+- name: Plunge
+  description: DESIGN A PLUNGER-STYLE COOKIE CUTTER, GET IT SHIPPED!
+  website: http://plunge.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C0955KVD1SA
+  slackChannel: "#plunge"
+  status: draft
+- name: Aquarium
+  description:
+  website:
+  slack: https://hackclub.slack.com/archives/C095PTABEJK
+  slackChannel: "#aquarium"
+  status: draft
+- name: Apogee
+  description: a rocketry ysws - still workshopping the idea!
+  website: 
+  slack: https://hackclub.slack.com/archives/C095RKGV5J4
+  slackChannel: "#apogee"
+  status: draft
+- name: Slushies
+  description: Earn $5 for deploying your Flask app (WIP)
+  website: https://slushies.vercel.app/
+  slack: https://hackclub.slack.com/archives/C097GP305G8
+  slackChannel: "#slushies"
+  status: draft
+- name: Glossarium
+  description: You ship anything that can provide knowledge (a comic, a tutorial, a how-to...) We ship a zine from Julia Evans
+  website: https://mathiasdpx.github.io/glossarium/
+  slack: https://hackclub.slack.com/archives/C096L6J19PY
+  slackChannel: "#glossarium"
+  status: draft
+- name: Hacksaber
+  description: An (not official) YSWS that you make an beat saber mod or custom map and we give beat saber copy
+  website:
+  slack: https://hackclub.slack.com/archives/C096K1ZEXDL
+  slackChannel: "#hacksaber"
+  status: draft
 - name: Hack A Home
   description: You Ship a Home Assistant with Software,PCB and Case, We Ship a grant ($150 Max)to make it. 
   detailedDescription: |
