@@ -29,7 +29,7 @@ limitedTime:
   slack: https://hackclub.slack.com/archives/C096HCT11G9
   slackChannel: "#toybox"
   status: active
-  deadline: '2025-22-24T23:59:59'
+  deadline: '2025-07-22T23:59:59'
 - name: Twist
   description: Make an esolang, get stickers and a $40 electronics grant.
   website: https://twist.hackclub.dev/
