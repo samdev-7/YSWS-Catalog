@@ -46,6 +46,14 @@ limitedTime:
   status: active
   deadline: '2025-08-10T23:59:59'
 
+- name: Slushies
+  description: Build a flask app, get $5 or $10 for slushies!
+  website: https://slushies.hackclub.com
+  slack: https://hackclub.slack.com/archives/C097GP305G8
+  slackChannel: "#slushies"
+  status: active
+  deadline: '2025-08-23T23:59:59'
+
 - name: Minigame
   description: A YSWS where you build "mini" 5 hour games and earn a $20 grant for each one! At the end everyone's games will be combined together to make a big Minigame collection!
   website: https://minigame.hackclub.dev
