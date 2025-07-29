@@ -11,6 +11,15 @@
       "participants": 10985
     },
     {
+      "name": "Reality",
+      "description": "Build a tool that helps you or others break free from a digital bad habit! We ship you a personalized prize!",
+      "website": "https://reality.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C09668Y9H1R",
+      "slackChannel": "#reality",
+      "status": "active",
+      "deadline": "2025-08-15T23:59:59"
+    },
+    {
       "name": "Gemini",
       "description": "Ship An Android App and get a FREE Android Phone + Dev License!",
       "website": "https://gemini.hackclub.com/",
@@ -18,6 +27,15 @@
       "slackChannel": "#gemini",
       "status": "active",
       "deadline": "2025-08-11T23:59:59"
+    },
+    {
+      "name": "Endpointer",
+      "description": "Build a REST API, get a grant for Raspberry Pi or Cloud Credits",
+      "website": "https://endpointer.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C097M5JRT7F",
+      "slackChannel": "#endpointer",
+      "status": "active",
+      "deadline": "2025-08-12T23:59:59"
     },
     {
       "name": "Timeless",
