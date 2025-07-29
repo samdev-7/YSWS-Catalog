@@ -15,7 +15,13 @@ limitedTime:
   slackChannel: "#gemini"
   status: active
   deadline: '2025-08-11T23:59:59'
-
+- name: Endpointer
+  description: Build a REST API, get a grant for Raspberry Pi or Cloud Credits
+  website: https://endpointer.hackclub.com
+  slack: https://hackclub.slack.com/archives/C097M5JRT7F
+  slackChannel: "#endpointer"
+  status: active
+  deadline: '2025-08-12T23:59:59'
 - name: Timeless
   description: You have 10 days. Make a video game that could last someone 10 years.
   website: https://timeless.hackclub.com/
