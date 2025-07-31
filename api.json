@@ -827,10 +827,10 @@
     {
       "name": "Hackducky",
       "description": "Create A DuckyScript get a Rubber Ducky ! ( hackducky )",
-      "website": "hackducky.hackclub.com",
+      "website": null,
       "slack": "https://hackclub.slack.com/archives/C08B8HZBC85",
       "slackChannel": "#hackducky",
-      "status": "active"
+      "status": "draft"
     },
     {
       "name": "HackABand",
