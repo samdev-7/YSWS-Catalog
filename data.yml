@@ -26,6 +26,17 @@ limitedTime:
   status: active
   deadline: '2025-08-31T23:59:59'
   participants: 10985
+- name: Hivemind
+  description: Create a roguelike in 7 days, get itch.io credit.
+  website: https://hivemind.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C096T7JRQRG
+  slackChannel: "#hivemind-"
+  status: active
+  deadline: '2025-08-07T23:59:59'
+  steps:
+  - Create a traditional roguelike in 7 days.
+  - Chronicle its development across 7 devlogs.
+  - Get $2.50 in itch.io credit for each approved hour you spend.
 - name: Reality
   description: Build a tool that helps you or others break free from a digital bad habit! We ship you a personalized prize!
   website: https://reality.hackclub.com
