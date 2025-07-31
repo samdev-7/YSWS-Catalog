@@ -275,6 +275,13 @@ limitedTime:
   slackChannel: "#waveband"
   status: active
   deadline: '2025-07-11T23:59:59'
+- name: cmd + k
+  description: Build a Raycast extension, get Raycast Pro & stickers 
+  website: https://cmd-k.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C0981BXG124
+  slackChannel: "#cmd-k"
+  status: active
+  deadmine: '2025-08-17T23:59:59'
 - name: Toolsmith
   description: Build a AI extension (MCP tool), get $10 of AI credits.
   website: https://toolsmith.hackclub.com/
