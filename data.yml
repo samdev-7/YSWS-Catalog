@@ -72,6 +72,21 @@ limitedTime:
   slackChannel: "#toybox"
   status: active
   deadline: '2025-07-22T23:59:59'
+- name: Dummies
+  description: learn a new language, recieve a guide book!
+  website: https://dummies.hackclub.com/
+  deadline: 2025-08-14T23:59:59
+  detailedDescription: Join Dummies to take on projects in new languages and earn grant cards for books!
+  steps:
+     - Develop and publish a project
+     - Submit it to Hack Club
+     - Receive a grant for books!
+  requirements:
+     - taking on a NEW skill
+     - resulting project can be seen from a weblink
+  slack: https://app.slack.com/client/T0266FRGM/C096M3EV67M
+  slackChannel: "#Dummies"
+  status: active
 - name: Twist
   description: Make an esolang, get stickers and a $40 electronics grant.
   website: https://twist.hackclub.dev/
@@ -120,6 +135,22 @@ limitedTime:
   status: active
   deadline: '2025-07-05T23:59:59'
 
+- name: Dummies
+  description: learn a new language, recieve a guide book!
+  website: https://dummies.hackclub.com/
+  deadline: 2025-08-14T23:59:59
+  detailedDescription: Join Dummies to take on projects in new languages and earn grant cards for books!
+  steps:
+     - Develop and publish a project
+     - Submit it to Hack Club
+     - Receive a grant for books!
+  requirements:
+     - taking on a NEW skill
+     - resulting project can be seen from a weblink
+  slack: https://app.slack.com/client/T0266FRGM/C096M3EV67M
+  slackChannel: "#Dummies"
+  status: active
+  
 - name: Hackfinger
   description: You design a custom appendage (finger, tail, leg, anything you want!) and get your design printed along with a custom control board.
   website: https://hackfinger.hackclub.com
