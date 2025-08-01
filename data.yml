@@ -1023,3 +1023,10 @@ drafts:
   slackChannel: "#boba"
   status: ended
   ended: '2024-12-31T23:59:59'
+- name: Optimize
+  description: Create a memory efficient desktop app, get RAM!
+  website: https://optimize.hackclub.com
+  slackChannel: "#optimize"
+  slack: https://hackclub.slack.com/archives/C096NH7FW4T
+  status: active
+  deadline: '2025-08-08T23:59:59'
