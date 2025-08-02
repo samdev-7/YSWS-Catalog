@@ -319,6 +319,45 @@
       "deadline": "2025-07-21T23:59:59"
     },
     {
+      "name": "Swirl",
+      "description": "Create a quality website with Scoops, get ice cream!",
+      "detailedDescription": "Ship a static website (html + css) that has a Scoop, and get a grant for ice cream to enjoy! Scoops are made up of groups of three html / css features that add something of value to the website.",
+      "website": "https://swirl.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C08FR0LMVHD",
+      "slackChannel": "#swirl",
+      "status": "active",
+      "deadline": "2025-08-03T23:59:59",
+      "participants": 40
+    },
+    {
+      "name": "Grub",
+      "description": "You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.",
+      "detailedDescription": "The grant amount is based on the number of unique features implemented:\\n$6 (Basic Meal): For 2 unique features.\\n$8 (Refreshment Combo): For 4 unique features.\\n$10 (Full Combo Meal): For 6 or more unique features.",
+      "website": "https://grub.hackclub.com/",
+      "slack": null,
+      "slackChannel": "#grub",
+      "status": "active",
+      "deadline": "2025-08-03T23:59:59"
+    },
+    {
+      "name": "Toppings",
+      "description": "You ship an interactive website using framework-less JavaScript, we ship you a grant to an ice cream parlor.",
+      "website": "https://toppings.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C08R8V2E3LY",
+      "slackChannel": "#toppings",
+      "status": "active",
+      "deadline": "2025-08-03T23:59:59"
+    },
+    {
+      "name": "Waffles",
+      "description": "You ship a website using HTML CSS and JavaScript, and get Waffles!!!",
+      "website": "https://waffles.hackclub.com/",
+      "slack": "https://hackclub.slack.com/archives/C08QBKX5WCD",
+      "slackChannel": "#waffles",
+      "status": "active",
+      "deadline": "2025-08-03T23:59:59"
+    },
+    {
       "name": "Hackmate",
       "description": "Build a collaborative app, get upto $50 for cloud credits or a raspberry pi",
       "website": "https://hackmate.hackclub.dev",
@@ -743,46 +782,11 @@
       "participants": 1253
     },
     {
-      "name": "Swirl",
-      "description": "Create a quality website with Scoops, get ice cream!",
-      "detailedDescription": "Ship a static website (html + css) that has a Scoop, and get a grant for ice cream to enjoy! Scoops are made up of groups of three html / css features that add something of value to the website.",
-      "website": "https://swirl.hackclub.com",
-      "slack": "https://hackclub.slack.com/archives/C08FR0LMVHD",
-      "slackChannel": "#swirl",
-      "status": "active",
-      "participants": 40
-    },
-    {
       "name": "OnBoard Live",
       "description": "Design a PCB live on YouTube for $5/hour PCB credit.",
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C07F3EA2L8G",
       "slackChannel": "#onboard-live",
-      "status": "active"
-    },
-    {
-      "name": "Grub",
-      "description": "You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.",
-      "detailedDescription": "The grant amount is based on the number of unique features implemented:\\n$6 (Basic Meal): For 2 unique features.\\n$8 (Refreshment Combo): For 4 unique features.\\n$10 (Full Combo Meal): For 6 or more unique features.",
-      "website": "https://grub.hackclub.com/",
-      "slack": null,
-      "slackChannel": "#grub",
-      "status": "active"
-    },
-    {
-      "name": "Toppings",
-      "description": "You ship an interactive website using framework-less JavaScript, we ship you a grant to an ice cream parlor.",
-      "website": "https://toppings.hackclub.com/",
-      "slack": "https://hackclub.slack.com/archives/C08R8V2E3LY",
-      "slackChannel": "#toppings",
-      "status": "active"
-    },
-    {
-      "name": "Waffles",
-      "description": "You ship a website using HTML CSS and JavaScript, and get Waffles!!!",
-      "website": "https://waffles.hackclub.com/",
-      "slack": "https://hackclub.slack.com/archives/C08QBKX5WCD",
-      "slackChannel": "#waffles",
       "status": "active"
     }
   ],
