@@ -58,6 +58,13 @@ limitedTime:
   slackChannel: "#endpointer"
   status: active
   deadline: '2025-08-12T23:59:59'
+- name: Portal-VR
+  description: Build an AR/VR application, get a VR headset!
+  website: https://portalvr.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C096CPJ1HCN
+  slackChannel: "#portal-vr"
+  status: active
+  deadline: '2025-08-16T23:59:59'
 - name: Timeless
   description: You have 10 days. Make a video game that could last someone 10 years.
   website: https://timeless.hackclub.com/
