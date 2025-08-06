@@ -285,7 +285,7 @@ limitedTime:
   description: 'You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.'
   detailedDescription: "The grant amount is based on the number of unique features implemented:\\n$6 (Basic Meal): For 2 unique features.\\n$8 (Refreshment Combo): For 4 unique features.\\n$10 (Full Combo Meal): For 6 or more unique features."
   website: https://grub.hackclub.com/
-  slack:
+  slack: https://hackclub.slack.com/archives/C08S9NCEULB
   slackChannel: "#grub"
   status: active
   deadline: '2025-08-03T23:59:59'
