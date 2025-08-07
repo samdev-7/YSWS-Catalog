@@ -56,6 +56,15 @@
       "deadline": "2025-08-15T23:59:59"
     },
     {
+      "name": "Authly",
+      "description": "Build the weirdest and never-before-seen authentication system, get yubikeys, programmable nfc tags, antivirus giftcards and more!",
+      "website": "https://authly.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C0963JU3CSD",
+      "slackChannel": "#authly",
+      "status": "active",
+      "deadline": "2025-08-31T23:59:59"
+    },
+    {
       "name": "Gemini",
       "description": "Ship An Android App and get a FREE Android Phone + Dev License!",
       "website": "https://gemini.hackclub.com/",
