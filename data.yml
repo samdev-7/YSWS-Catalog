@@ -118,6 +118,22 @@ limitedTime:
   status: active
   deadline: '2025-08-23T23:59:59'
 
+- name: Infinity
+  description: Build a website with an infinite realtime canvas, get awesome prizes!
+  website: https://infinity.hackclub.com
+  slack: https://hackclub.slack.com/archives/C098ARHLXFW
+  slackChannel: "#infinity"
+  status: active
+  deadline: '2025-08-22T23:59:59'
+
+- name: Tile
+  description: Build a tile, get a tile, tile the tiles!
+  website: https://tile.hackclub.com
+  slack: https://hackclub.slack.com/archives/C097E6ZAF99
+  slackChannel: "#tile"
+  status: active
+  deadline: '2025-08-18T23:59:59'
+
 - name: Minigame
   description: A YSWS where you build "mini" 5 hour games and earn a $20 grant for each one! At the end everyone's games will be combined together to make a big Minigame collection!
   website: https://minigame.hackclub.dev
