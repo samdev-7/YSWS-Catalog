@@ -496,8 +496,11 @@
     <description><![CDATA[
       <p>You Ship A responsive website using only HTML and Tailwind CSS. We Ship A grant for junk food.</p>
       <p><strong>Deadline:</strong> August 3, 2025</p>
-      <p>The grant amount is based on the number of unique features implemented:\n$6 (Basic Meal): For 2 unique features.\n$8 (Refreshment Combo): For 4 unique features.\n$10 (Full Combo Meal): For 6 or more unique features.</p>
-      <p>Join the discussion in <a href="null">#grub</a></p>
+      <p>The grant amount is based on the number of unique features implemented:
+$6 (Basic Meal): For 2 unique features.
+$8 (Refreshment Combo): For 4 unique features.
+$10 (Full Combo Meal): For 6 or more unique features.</p>
+      <p>Join the discussion in <a href="https://hackclub.slack.com/archives/C08S9NCEULB">#grub</a></p>
     ]]></description>
   </item>
   <item>
