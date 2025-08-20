@@ -74,6 +74,15 @@
       "deadline": "2025-08-11T23:59:59"
     },
     {
+      "name": "Clutter",
+      "description": "Make something that organizes your digital life, get a grant to organize your physical life!",
+      "website": "https://clutter.hackclub.com",
+      "slack": "https://hackclub.slack.com/archives/C0997C887M3",
+      "slackChannel": "#clutter",
+      "status": "active",
+      "deadline": "2025-09-03T23:59:59"
+    },
+    {
       "name": "Endpointer",
       "description": "Build a REST API, get a grant for Raspberry Pi or Cloud Credits",
       "website": "https://endpointer.hackclub.com",
