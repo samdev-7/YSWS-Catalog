@@ -893,7 +893,7 @@
     },
     {
       "name": "Rube Goldburg YSWS",
-      "description": null,
+      "description": "Create complex chain reaction machines and contraptions",
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C094U05FAE6",
       "slackChannel": "#rube-goldberg-ysws",
@@ -917,7 +917,7 @@
     },
     {
       "name": "Aquarium",
-      "description": null,
+      "description": "Build aquatic-themed projects and digital ecosystems",
       "website": null,
       "slack": "https://hackclub.slack.com/archives/C095PTABEJK",
       "slackChannel": "#aquarium",

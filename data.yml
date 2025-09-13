@@ -726,7 +726,7 @@ drafts:
   slackChannel: "#swatchbox"
   status: draft
 - name: Rube Goldburg YSWS
-  description: 
+  description: Create complex chain reaction machines and contraptions
   website:
   slack: https://hackclub.slack.com/archives/C094U05FAE6
   slackChannel: "#rube-goldberg-ysws"
@@ -744,7 +744,7 @@ drafts:
   slackChannel: "#plunge"
   status: draft
 - name: Aquarium
-  description:
+  description: Build aquatic-themed projects and digital ecosystems
   website:
   slack: https://hackclub.slack.com/archives/C095PTABEJK
   slackChannel: "#aquarium"
