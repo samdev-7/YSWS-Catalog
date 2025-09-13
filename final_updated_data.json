@@ -247,8 +247,8 @@
       "name": "Poetry",
       "description": "You ship: poetry (details to be decided soon) We ship: Maybe a poster or smth?",
       "website": null,
-      "slack": "#poetry-ysws",
-      "slackChannel": "https://hackclub.slack.com/archives/C095DDUVCJX",
+      "slack": "https://hackclub.slack.com/archives/C095DDUVCJX",
+      "slackChannel": "#poetry-ysws",
       "status": "draft"
     },
     {
