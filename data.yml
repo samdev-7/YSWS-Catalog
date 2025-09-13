@@ -30,23 +30,47 @@ limitedTime:
   slackChannel: "#birthday-cards-ysws"
   status: active
   deadline: '2026-08-12T23:59:59'
-- name: Armed
-  description: Develop an arm assembly program, get lego.
-  website: https://armed.hackclub.com
-  slack: https://hackclub.slack.com/archives/C098S1A5ZAT
-  slackChannel: '#armed'
-  status: ended
-  deadline: '2025-09-01T23:59:59'
-...existing code...
-- name: The Zoo
-  description: Make an animal themed Svelte site, earn Ikea Animal Plushies
-  website: https://zoo.hackclub.com
-  slack: https://hackclub.slack.com/archives/C08K37F66AK
-  slackChannel: "#the-zoo"
-  status: ended
-  deadline: '2025-08-23T03:50:00'
-  detailedDescription: |
-    The Zoo is a Svelte YSWS where participants build an animal themed Svelte site and earn Mynts (currency) which can be turned into an HCB grant at the end to buy Ikea plushies. Get one giant Djungleskog, or multiple mini Blahaj, it's all up to you. Here's the best part: the better your submission is, the more Mynts you earn!
+- name: Penumbra
+  description: Make shaders, and we'll ship you GPUs and posters!
+  website: https://penumbra.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C09EC7ZS05S
+  slackChannel: "#penumbra"
+  status: active
+  deadline: '2025-09-24T23:59:59'
+  detailedDescription: Penumbra is a YSWS, where you create shaders on ShaderToy, and get posters of your shaders shipped right to your doorstep! If you spend up to 45 hours across multiple ships, you'll be able to get a GPU like an RTX 3050! 
+- name: Clutter
+  description: You ship something to organize your digital life. We ship you a grant to buy something to organize your physical life.
+  website: https://clutter.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C0997C887M3
+  slackChannel: "#clutter"
+  status: active
+  deadline: '2025-09-17T23:59:59'
+- name: Fusering
+  description: "Design a keyring, get your keyring and a carabiner to hang it from!"
+  website: https://fusering.hackclub.com
+  slackChannel: "#fusering"
+  slack: https://hackclub.slack.com/archives/C098U42PD2A
+  status: active
+  deadline: '2025-09-30T23:59:59'
+- name: iFrame
+  description: Draw or edit images using any programming language and we will hang your custom image on HQ wall and send a copy to you
+  website: https://iframe.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C098LMVKPCM
+  slackChannel: "#iframe"
+  status: active
+- name: Grounded
+  description: Onboard + Bin v2
+  website: https://grounded.hackclub.com
+  slack: https://hackclub.slack.com/archives/C0948RT0C1M
+  slackChannel: "#grounded"
+  status: active
+- name: BakeBuild
+  description: Design a cookie cutter, get it shipped!
+  detailedDescription: "You ship : A CAD model of a cookie cutter, we ship : A 3D printed model of your custom cookie cutter & cookies!"
+  website: https://bakebuild.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C0844MV2JM9
+  slackChannel: "#bakebuild"
+  status: active
 - name: HackCraft
   description: Create a Minecraft mod, get Stickers, Minecraft or a server and terraria!
   website: https://hackcraft.hackclub.com/
@@ -71,7 +95,7 @@ limitedTime:
   slack: https://hackclub.slack.com/archives/C015M4L9AHW
   slackChannel: "#summer-of-making"
   status: active
-  deadline: '2025-09-31T23:59:59'
+  deadline: '2025-09-30T23:59:59'
   participants: 10985
 - name: Hivemind
   description: Create a roguelike in 7 days, get itch.io credit.
@@ -84,21 +108,6 @@ limitedTime:
   - Create a traditional roguelike in 7 days.
   - Chronicle its development across 7 devlogs.
   - Get $2.50 in itch.io credit for each approved hour you spend.
-- name: Penumbra
-  description: Make shaders, and we'll ship you GPUs and posters!
-  website: https://penumbra.hackclub.com/
-  slack: https://hackclub.slack.com/archives/C09EC7ZS05S
-  slackChannel: "#penumbra"
-  status: active
-  deadline: '2025-09-24T23:59:59'
-  detailedDescription: Penumbra is a YSWS, where you create shaders on ShaderToy, and get posters of your shaders shipped right to your doorstep! If you spend up to 45 hours across multiple ships, you'll be able to get a GPU like an RTX 3050! 
-- name: Authly
-  description: Build the weirdest and never-before-seen authentication system, get yubikeys, programmable nfc tags, antivirus giftcards and more!
-  website: https://authly.hackclub.com
-  slack: https://hackclub.slack.com/archives/C0963JU3CSD
-  slackChannel: "#authly"
-  status: active
-  deadline: '2025-08-31T23:59:59'
 - name: Gemini
   description: Ship An Android App and get a FREE Android Phone + Dev License!
   website: https://gemini.hackclub.com/
@@ -228,14 +237,6 @@ limitedTime:
   slackChannel: "#hackfinger"
   status: ended
   deadline: '2025-07-20T23:59:59'
-
-- name: Silicon
-  description: Design your own custom devboard and we'll fund it
-  website: https://silicon.hackclub.dev
-  slack: https://hackclub.slack.com/archives/C090WQ9JBTM
-  slackChannel: "#silicon"
-  status: active
-  deadline: '2025-08-06T23:59:59'
 
 - name: Grounded
   description: Onboard + Bin v2
@@ -419,13 +420,6 @@ limitedTime:
   slackChannel: "#waveband"
   status: ended
   deadline: '2025-07-11T23:59:59'
-- name: cmd + k
-  description: Build a Raycast extension, get Raycast Pro & stickers 
-  website: https://cmd-k.hackclub.com/
-  slack: https://hackclub.slack.com/archives/C0981BXG124
-  slackChannel: "#cmd-k"
-  status: active
-  deadline: '2025-08-17T23:59:59'
 - name: Toolsmith
   description: Build a AI extension (MCP tool), get $10 of AI credits.
   website: https://toolsmith.hackclub.com/
@@ -590,13 +584,6 @@ limitedTime:
   slackChannel: "#dessert"
   status: ended
   deadline: '2025-01-10T23:59:59'
-- name: Solder
-  description: Design and solder your own custom PCB with a free electronics kit!
-  website: https://solder.hackclub.com/
-  slack: https://slack.com/archives/C08L288G22Y
-  slackChannel: "#solder"
-  status: active
-  deadline: '2025-06-30T23:59:59'
 - name: Cascade
   description: Create animations with CSS and receive art supplies.
   website: https://cascade.hackclub.com/
@@ -694,6 +681,53 @@ limitedTime:
   slack: https://hackclub.slack.com/archives/C098U42PD2A
   status: active
   deadline: '2025-09-30T23:59:59'
+
+recentlyEnded:
+- name: Armed
+  description: Develop an arm assembly program, get lego.
+  website: https://armed.hackclub.com
+  slack: https://hackclub.slack.com/archives/C098S1A5ZAT
+  slackChannel: '#armed'
+  status: ended
+  deadline: '2025-09-01T23:59:59'
+- name: The Zoo
+  description: Make an animal themed Svelte site, earn Ikea Animal Plushies
+  website: https://zoo.hackclub.com
+  slack: https://hackclub.slack.com/archives/C08K37F66AK
+  slackChannel: "#the-zoo"
+  status: ended
+  deadline: '2025-08-23T03:50:00'
+  detailedDescription: |
+    The Zoo is a Svelte YSWS where participants build an animal themed Svelte site and earn Mynts (currency) which can be turned into an HCB grant at the end to buy Ikea plushies. Get one giant Djungleskog, or multiple mini Blahaj, it's all up to you. Here's the best part: the better your submission is, the more Mynts you earn!
+- name: Authly
+  description: Build the weirdest and never-before-seen authentication system, get yubikeys, programmable nfc tags, antivirus giftcards and more!
+  website: https://authly.hackclub.com
+  slack: https://hackclub.slack.com/archives/C0963JU3CSD
+  slackChannel: "#authly"
+  status: ended
+  deadline: '2025-08-31T23:59:59'
+- name: Silicon
+  description: Design your own custom devboard and we'll fund it
+  website: https://silicon.hackclub.dev
+  slack: https://hackclub.slack.com/archives/C090WQ9JBTM
+  slackChannel: "#silicon"
+  status: ended
+  deadline: '2025-08-06T23:59:59'
+- name: cmd + k
+  description: Build a Raycast extension, get Raycast Pro & stickers 
+  website: https://cmd-k.hackclub.com/
+  slack: https://hackclub.slack.com/archives/C0981BXG124
+  slackChannel: "#cmd-k"
+  status: ended
+  deadline: '2025-08-17T23:59:59'
+- name: Solder
+  description: Design and solder your own custom PCB with a free electronics kit!
+  website: https://solder.hackclub.com/
+  slack: https://slack.com/archives/C08L288G22Y
+  slackChannel: "#solder"
+  status: ended
+  deadline: '2025-06-30T23:59:59'
+
 indefinite:
 - name: Sprig
   description: Build a JS game and play it on your own console.
